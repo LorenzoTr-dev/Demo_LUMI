@@ -4,8 +4,8 @@ import { PatientView } from "@/components/demo/PatientView";
 import { DoctorView } from "@/components/demo/DoctorView";
 import { FamilyView } from "@/components/demo/FamilyView";
 import { Heart, Stethoscope, Users } from "lucide-react";
-import lumiIcon from "@/assets/lumi-icon.png";
-import lumiWordmark from "@/assets/lumi-wordmark.png";
+import lumiIcon from "/lumi-icon.png";
+import lumiWordmark from "/lumi-wordmark.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
