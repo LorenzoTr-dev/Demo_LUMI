@@ -10,6 +10,6 @@ export default defineConfig({
     tsConfigPaths(),
   ],
   build: {
-    ssr: false,
+    outDir: "dist",
   },
 });
